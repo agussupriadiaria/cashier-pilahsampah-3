@@ -42,7 +42,10 @@
   ],
   "columnUpdatedAt": 1755391948107,
   "columnWidthMap": {
-    "customColumn1": 60
+    "customColumn1": 60,
+    "usagedate": 148.99999999999997,
+    "user_name": 352,
+    "voucher": 252
   },
   "customIsLoading": false,
   "customIsLoadingValue": "",
