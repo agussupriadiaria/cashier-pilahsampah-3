@@ -397,6 +397,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "serverSidePaginationEnabled": false,
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{qy_listVoucher3.data}}",
   "textSize": "0.875rem",
