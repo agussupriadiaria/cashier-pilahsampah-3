@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE transactions_wd\nSET usagedate = {{ Table1.updatedRow.usagedate }}\nWHERE voucher = {{ Table1.updatedRow.voucher }};",
+      "body": "UPDATE transactions_wd\nSET usagedate = {{ Table1.updatedRow.usagedate }}\nWHERE no = {{ Table1.updatedRow.no }}\n \n-- kalau pakai parameter voucher untuk update nanti pas digenerate vouchernya, bisa kembar vouchernya",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

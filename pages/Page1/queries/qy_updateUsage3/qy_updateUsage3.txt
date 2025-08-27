@@ -1,3 +1,5 @@
 UPDATE transactions_wd
 SET usagedate = {{ Table1.updatedRow.usagedate }}
-WHERE voucher = {{ Table1.updatedRow.voucher }};
+WHERE no = {{ Table1.updatedRow.no }}
+ 
+-- kalau pakai parameter voucher untuk update nanti pas digenerate vouchernya, bisa kembar vouchernya

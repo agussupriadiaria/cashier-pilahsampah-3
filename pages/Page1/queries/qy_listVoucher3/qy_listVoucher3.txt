@@ -1,8 +1,9 @@
 SELECT 
-	user_name,
-	voucher,
-	amount,
-	inputdate,
-	usagedate
-
+    user_name,
+    voucher,
+    amount,
+    inputdate,
+    usagedate,
+    no
 FROM transactions_wd
+WHERE voucher LIKE 'cafe1%';
