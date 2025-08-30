@@ -6,4 +6,5 @@ SELECT
     usagedate,
     no
 FROM transactions_wd
-WHERE voucher LIKE 'cafe1%';
+WHERE voucher LIKE 'cafe1%'
+OR voucher LIKE 'cafex%';
